@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    padding: 0;
+    margin: 0;
+    
+    background: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) .1em, transparent .1em), linear-gradient(90deg, rgb(0, 0, 0, 0.6) .1em, transparent .1em);
+    background-size: 50px 50px;
+
+    font-family: 'Staatliches', cursive;
+}
+
+#topSection {
+    position: sticky;
+}
+
+#header {
+    position: relative;
+    background-color: white;
+    
+    max-width: 97vw;
+    height: 185px;
+    margin-top: 30px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    
+    border: 3px solid black;
+    box-shadow: 11px 11px rgb(26, 26, 26);
+}
+
+#logo {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#title {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.mainTitle {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+#t1 {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#t2 {
+    font-size: 1.4em;
+}
+
+.navbar {
+    margin-top: 4.5vh;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    max-width: 97vw;
+}
+
+#nav {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButton {
+    list-style:none;
+
+    display: inline-block;
+
+    padding: 10px 0;
+    
+
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 6px 6px rgb(26, 26, 26);
+    width: 12vw;
+
+    text-align: center;
+    
+}
+
+.navButtonA {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(99, 167, 22);
+}
+
+.navButton:hover {
+    background-color: black;
+    box-shadow: 6px 6px rgb(99, 167, 22);
+}
+
+.navButton:hover .navButtonA {
+    color: white;
+}
