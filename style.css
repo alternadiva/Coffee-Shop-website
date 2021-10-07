@@ -232,10 +232,10 @@ body {
 
 .reservationText {
     font-family: 'Cairo', sans-serif;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 62px;
     margin-right: 62px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .labels {
@@ -247,7 +247,7 @@ body {
     color: white;
     border: none;
     width: 10vw;
-    padding: 4px;
+    padding: 3px;
     margin-left: 50%;
     font-family: 'Staatliches', cursive;
 }
